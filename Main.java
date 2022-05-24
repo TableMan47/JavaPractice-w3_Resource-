@@ -225,6 +225,16 @@ public static void main(String[] args) {
 
 
 //15. Find common elements between two arrays (String values).
+    String[] arr1 = {"sam", "john", "candy", "andy"};
+    String[] arr2 = {"andy", "sam", "arthur"};
+
+    for(int i = 0; i < arr1.length; i++){
+        for(int j =0; j < arr2.length; j++){
+            if(arr1[i] == arr2[j] && (i != j)){
+                System.out.println("Duplicate String elements : " + arr2[j]);
+            }
+        }
+    }
     
 
 
