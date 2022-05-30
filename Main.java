@@ -1,4 +1,3 @@
-package my.company;
 
 import java.util.Arrays;
 
@@ -225,6 +224,7 @@ public static void main(String[] args) {
 
 
 //15. Find common elements between two arrays (String values).
+    /*
     String[] arr1 = {"sam", "john", "candy", "andy"};
     String[] arr2 = {"andy", "sam", "arthur"};
 
@@ -235,8 +235,21 @@ public static void main(String[] args) {
             }
         }
     }
-    
+    */
 
+
+// 16. Find the largest second element in an array. 
+    int[] arr = {3,45,74,44,86,37};
+
+    System.out.println("Unsorted Array: " +Arrays.toString(arr));
+
+    Arrays.sort(arr); 
+
+    System.out.println("Sorted Array: " +Arrays.toString(arr));
+
+    int secondElement = arr[arr.length - 2];
+
+    System.out.println("Second Largest Element : " +secondElement);
 
 
 
