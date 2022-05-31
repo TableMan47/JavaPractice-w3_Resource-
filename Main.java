@@ -239,7 +239,7 @@ public static void main(String[] args) {
 
 
 // 16. Find the largest second element in an array. 
-    int[] arr = {3,45,74,44,86,37};
+    /*int[] arr = {3,45,74,44,86,37};
 
     System.out.println("Unsorted Array: " +Arrays.toString(arr));
 
@@ -250,6 +250,24 @@ public static void main(String[] args) {
     int secondElement = arr[arr.length - 2];
 
     System.out.println("Second Largest Element : " +secondElement);
+    */
+
+
+
+//17. Find the second smallest element in the array. 
+    /*int[] arr = {-1, 4, 0, 2, 7, -3};
+
+    Arrays.sort(arr);
+
+    System.out.println("Sorted Array: " +Arrays.toString(arr));
+
+    int second_Smallest_Element = arr[1];
+
+    System.out.println("2nd Smallest Element: " +(second_Smallest_Element));
+    */
+
+
+// Program to add two matrices of the same size.
 
 
 
