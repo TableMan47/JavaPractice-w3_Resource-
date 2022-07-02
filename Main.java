@@ -1,5 +1,6 @@
 
 import java.util.Arrays;
+import java.util.ArrayList; 
 
 public class Main {
 public static void main(String[] args) {
@@ -267,10 +268,24 @@ public static void main(String[] args) {
     */
 
 
-// Program to add two matrices of the same size.
+
+
+//18. Program to convert an array to an ArrayList. 
+// An arrayList is a resizable array, whereas a normal array is not a resizable arrray. 
+ /*   String[] Cars= {"Buggatti","Mercedes","Audi","Ferrari","Aston Martin"};
+
+
+    // Convert the array to an ArrayList using the Arrays.asList method. 
+    ArrayList<String> list = new ArrayList<String>(Arrays.asList(Cars));
+
+
+    System.out.println(list);
+*/
 
 
 
+
+// 19. Program to convert an ArrayList to an Array. 
 
 
 
